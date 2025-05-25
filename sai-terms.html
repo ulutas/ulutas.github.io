@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAI: AI-Powered Video Creation</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f8f8; /* Light neutral background */
+        }
+        .text-primary-dark {
+            color: #2c3e50; /* Dark gray/blue tone */
+        }
+        .text-primary-light {
+            color: #34495e; /* Slightly lighter dark gray/blue */
+        }
+        .bg-accent {
+            background-color: #27ae60; /* Green accent color */
+        }
+        .text-accent {
+            color: #27ae60;
+        }
+        .border-accent {
+            border-color: #27ae60;
+        }
+        .btn-primary {
+            @apply px-6 py-3 rounded-lg font-semibold transition-colors duration-300;
+            background-color: #27ae60;
+            color: white;
+        }
+        .btn-primary:hover {
+            background-color: #229954;
+        }
+    </style>
+</head>
+<body class="text-primary-dark leading-relaxed">
+    <header class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-primary-dark">SAI</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="text-primary-light hover:text-accent font-medium">About Us</a></li>
+                    <li><a href="#features" class="text-primary-light hover:text-accent font-medium">Features</a></li>
+                    <li><a href="#how-it-works" class="text-primary-light hover:text-accent font-medium">How It Works</a></li>
+                    <li><a href="#download" class="text-primary-light hover:text-accent font-medium">Download</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+        <section id="about" class="bg-white p-8 rounded-lg shadow-md mb-12">
+            <h2 class="text-4xl font-bold text-center mb-6 text-primary-dark">SAI: Transform Your Imagination into Video</h2>
+            <p class="text-lg text-center text-primary-light max-w-3xl mx-auto mb-8">
+                SAI is an AI-powered mobile application for video creation. It allows you to easily bring your stories to life by transforming your texts, images, and ideas into stunning videos. Designed for everyone, from content creators and marketers to social media enthusiasts and educators.
+            </p>
+            <div class="flex justify-center">
+                <a href="#download" class="btn-primary">Download Now</a>
+            </div>
+        </section>
+
+        <section id="features" class="mb-12">
+            <h2 class="text-3xl font-bold text-center mb-10 text-primary-dark">Core Features</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-5xl text-accent mb-4">✨</div>
+                    <h3 class="text-xl font-semibold mb-2 text-primary-dark">AI-Powered Video Creation</h3>
+                    <p class="text-primary-light">Utilizes advanced artificial intelligence algorithms to create professional-quality videos from your texts or simple inputs.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-5xl text-accent mb-4">🎬</div>
+                    <h3 class="text-xl font-semibold mb-2 text-primary-dark">Diverse Video Styles & Templates</h3>
+                    <p class="text-primary-light">Add a unique touch to your video with a vast library of styles and templates suitable for various purposes and moods.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-5xl text-accent mb-4">💸</div>
+                    <h3 class="text-xl font-semibold mb-2 text-primary-dark">Subscription and Credit System</h3>
+                    <p class="text-primary-light">Choose the video creation experience that best suits your needs with flexible subscription plans and an in-app credit system.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-5xl text-accent mb-4">📱</div>
+                    <h3 class="text-xl font-semibold mb-2 text-primary-dark">User-Friendly Interface</h3>
+                    <p class="text-primary-light">Offers an intuitive and simple user interface that makes video creation accessible to everyone.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-5xl text-accent mb-4">🚀</div>
+                    <h3 class="text-xl font-semibold mb-2 text-primary-dark">Fast and Efficient Results</h3>
+                    <p class="text-primary-light">Save time by transforming your ideas into high-resolution videos in minutes.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-5xl text-accent mb-4">🔒</div>
+                    <h3 class="text-xl font-semibold mb-2 text-primary-dark">Secure and Private</h3>
+                    <p class="text-primary-light">We maintain the highest level of security and privacy for your data and the content you create.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="bg-white p-8 rounded-lg shadow-md mb-12">
+            <h2 class="text-3xl font-bold text-center mb-10 text-primary-dark">How SAI Works</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="flex flex-col items-center text-center">
+                    <div class="text-6xl text-accent font-bold mb-4">1</div>
+                    <h3 class="text-xl font-semibold mb-2 text-primary-dark">Enter Your Idea</h3>
+                    <p class="text-primary-light">Input text, keywords, or a basic concept for your video.</p>
+                </div>
+                <div class="flex flex-col items-center text-center">
+                    <div class="text-6xl text-accent font-bold mb-4">2</div>
+                    <h3 class="text-xl font-semibold mb-2 text-primary-dark">Choose Your Style</h3>
+                    <p class="text-primary-light">Select from a variety of video styles and templates available within the app.</p>
+                </div>
+                <div class="flex flex-col items-center text-center">
+                    <div class="text-6xl text-accent font-bold mb-4">3</div>
+                    <h3 class="text-xl font-semibold mb-2 text-primary-dark">Generate Your Video</h3>
+                    <p class="text-primary-light">SAI's AI will create a custom video for you in minutes!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="bg-accent text-white p-8 rounded-lg shadow-md text-center mb-12">
+            <h2 class="text-3xl font-bold mb-6">Try SAI!</h2>
+            <p class="text-lg mb-8">Download now to turn your dream videos into reality with artificial intelligence.</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="*" target="_blank" class="bg-white text-accent px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors duration-300 shadow-md">
+                    Download on the App Store
+                </a>
+                <a href="#" target="_blank" class="bg-white text-accent px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors duration-300 shadow-md">
+                    Get it on Google Play
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary-dark text-white py-8">
+        <div class="container mx-auto px-6 text-center text-sm">
+            <p>&copy; 2025 SAI. All Rights Reserved.</p>
+            <div class="mt-4 space-x-4">
+                <a href="https://ulutas.github.io/sai-terms.html" class="hover:underline">Terms of Use</a>
+                <a href="https://ulutas.github.io/sai-privacy.html" class="hover:underline">Privacy Policy</a>
+                <a href="mailto:ulutasproduct@gmail.com" class="hover:underline">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
