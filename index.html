@@ -3,53 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ULUTAS</title>
+    <title>Maze Power - ULUTAS</title>
+
     <style>
       body {
-        font-family: "Arial", sans-serif;
+        font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
         background-color: #ffffff;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        min-height: 100vh;
         flex-direction: column;
-      }
-
-      .title {
-        font-size: 24px;
-        color: #333;
-        margin-bottom: 20px;
-        font-weight: bold;
         text-align: center;
       }
 
+      .container {
+        padding: 20px;
+      }
+
+      .title {
+        font-size: 28px;
+        font-weight: bold;
+        color: #222;
+        margin-bottom: 10px;
+      }
+
+      .subtitle {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 30px;
+      }
+
       .download-button {
-        display: inline-flex;
-        align-items: center;
-        padding: 15px 30px;
+        display: inline-block;
+        padding: 14px 28px;
         margin: 10px;
-        border-radius: 5px;
+        border-radius: 6px;
         transition: all 0.3s ease;
         text-decoration: none;
         color: #ffffff;
         font-size: 16px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-      }
-
-      .download-button svg {
-        width: 24px;
-        height: 24px;
-        margin-right: 10px;
-      }
-
-      .google-play {
-        background-color: #1a73e8;
-      }
-
-      .google-play:hover {
-        background-color: #1458b0;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
       }
 
       .app-store {
@@ -60,37 +56,54 @@
         background-color: #333333;
       }
 
-      .contact-info {
+      .footer {
+        margin-top: 40px;
         font-size: 14px;
-        text-align: center;
+        color: #666;
       }
 
-      .contact-info a {
+      .footer a {
         color: #1a73e8;
         text-decoration: none;
-        text-align: center;
+        margin: 0 10px;
       }
 
-      .contact-info p {
-        margin-bottom: 20px;
-      }
-
-      .contact-info a:hover {
+      .footer a:hover {
         text-decoration: underline;
+      }
+
+      @media (max-width: 600px) {
+        .title {
+          font-size: 22px;
+        }
+
+        .download-button {
+          width: 80%;
+          max-width: 300px;
+        }
       }
     </style>
   </head>
+
   <body>
-    <div class="title">Maze Power
+    <div class="container">
+      <div class="title">Maze Power</div>
+      <div class="subtitle">Official Mobile Game by ULUTAS</div>
+
+      <a
+        class="download-button app-store"
+        href="https://apps.apple.com/us/app/maze-power/id6759152298"
+        target="_blank"
+      >
+        Download on the App Store
+      </a>
+
+      <div class="footer">
+        <a href="/maze-privacy.html">Privacy Policy</a> |
+        <a href="/maze-terms.html">Terms of Use</a>
+        <br /><br />
+        Contact: ulutasproduct@gmail.com
+      </div>
     </div>
-    <a class="download-button app-store" href="https://apps.apple.com/us/app/maze-power/id6759152298" target="_blank">
-      Maze Power App Store
-    </a>
-    <div class="contact-info">
-      <p>
-        <a href="/maze-privacy.html">Privacy Policy</a>
-      </p>
-    </div>
-    <br /><br /><br /><br />
   </body>
 </html>
